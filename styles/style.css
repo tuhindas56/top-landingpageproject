@@ -203,10 +203,19 @@ button.signup:active {
   margin-bottom: 5px;
 }
 
-.ad-button {
+button.ad-button {
   font-size: 20px;
   color: #ffffff;
   background-color: #3883f6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+button.ad-button:active {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #347ce9;
   border: 2px solid white;
   border-radius: 10px;
   padding: 6px 20px;
